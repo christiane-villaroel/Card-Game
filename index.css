@@ -1,0 +1,90 @@
+:root{
+    --button-color:#0092ff;
+    --background-color:#00ff00;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: green;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: space-between;
+ 
+    
+}
+#cards-container{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-slot{
+    display: inline-block;
+    width:100px;
+    height: 140px;
+    border: black solid 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    }
+ .cards{
+    width: 100%;
+    height: 100%;
+}
+.scores{
+    color: white;
+    padding: 5px;
+}
+
+button{
+    background: var(--button-color);
+    border: none;
+    padding: 5px;
+    color: white;
+    margin: 0px;
+    
+}
+#new-deck{
+    padding: 10px;
+    align-self: flex-start;
+    margin: 0px;
+}
+
+#draw-cards {
+    width: 100%;
+    font-size: 24px;
+    margin: 0px;
+    align-self: flex-end;
+    }
+.disabled{
+    background:  #fff;
+    color: #ccc;
+    cursor:not-allowed;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+#winner{
+    align-self: center;
+    text-align: center;
+    padding: 0;
+    
+}
+#remaining-cards{
+    align-self: center;
+    color: transparent;
+}
