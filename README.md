@@ -1,6 +1,18 @@
-# title(){return this.options.title||this.options.name}
+# Scrimba: Card War Game 
 
-## Supporting Scrimba
+This project is from the Scrimba Front End Developer Career Path
+
+## Project Description
+Using a Deck of Cards API to fetch shuffled card data and display them using the Post method. 
+
+### You VS computer
+- Get New Deck Click the New Deck button (cards a shuffled randomly by the API )
+- Then Click Draw button to get cards from the Deck for you and the computer. 
+- Scores are tracked above each card displayed.
+
+### API Used: https://deckofcardsapi.com/
+
+#### Supporting Scrimba
 
 Since 2017, we have created over 20 free courses on Scrimba, and we're going to
 continue launching free courses. But to pay our bills, we have to charge once
